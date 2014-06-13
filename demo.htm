@@ -8,26 +8,25 @@
   </head>
   <body>
     <div id="container1"></div>
-	<div id="container2"></div>
+    <div id="container2"></div>
     <script src="lib/three.min.js"></script>
     <script src="lib/tween.js"></script>
     <script src="lib/CSS3DRenderer.js"></script>
     <script src="lib/TrackballControls.js"></script>
     <script src="lib/d3.js"></script>
     <script src="js/wiz.js"></script>
-	
     <script>
       d3.json("data/top20.json", function (error, data) {
 	
         VIZ.drawElements(data);
-		WIZ.drawElements(data);
+	WIZ.drawElements(data);
         transform();
         VIZ.render();
         VIZ.animate();
-		WIZ.render();
+	WIZ.render();
         WIZ.animate();
         		
 	  });
-	</script>
+    </script>
   </body>
 </html>
