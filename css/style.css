@@ -1,0 +1,185 @@
+body {background-color: #333;}
+
+a, p {
+  color: #fff;
+  background: transparent;
+}
+
+#container1{
+position: absolute;
+top: 40px;
+left: 40px;
+max-width: 400px;
+min-width: 400px;
+max-height: 300px;
+min-height: 300px;
+border: 1px solid red;
+background: #000;
+}
+
+#container2{
+position: absolute;
+top: 40px;
+left: 480px;
+max-width: 400px;
+min-width: 400px;
+max-height: 300px;
+min-height: 300px;
+border: 1px solid red;
+background: #000;
+}
+
+.legendText, .axis text {
+  font-size: 7px;
+  fill: #fff;
+}
+
+.element {
+  width: 230px;
+  height: 175px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(48,103,145,.75);
+  border: 2px solid rgba(127,255,255,0.25);
+  border-radius: 8px;
+  text-align: center;
+  cursor: default;
+}
+
+.element:hover {
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(127,255,255,0.75);
+}
+
+.element svg {
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  right: 0px;
+}
+
+.element {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  right: 0px;
+  font-size: 40px;
+  color: rgba(255,255,255,0.75);
+}
+
+.element {
+  position: absolute;
+  top: 76px;
+  left: 12px;
+  right: 0px;
+  font-size: 7px;
+  color: rgba(255,255,255,0.75);
+}
+
+.element .chartTitle {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  font-size: 15px;
+  color: rgba(127,255,255,0.75);
+}
+
+.bar:hover {
+  fill: #33ff33;
+}
+
+.element .axis {
+  font: 7px sans-serif;
+  fill: green;
+}
+
+.element .axis path,
+.element .axis line {
+  fill: none;
+  stroke: green;
+  shape-rendering: crispEdges;
+}
+
+.element.x.axis path {
+  display: none;
+}
+
+
+
+
+
+.WIZelement {
+  width: 230px;
+  height: 175px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(48,103,145,.75);
+  border: 2px solid rgba(127,255,255,0.25);
+  border-radius: 8px;
+  text-align: center;
+  cursor: default;
+}
+
+.WIZelement:hover {
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(127,255,255,0.75);
+}
+
+.WIZelement svg {
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  right: 0px;
+}
+
+.WIZelement {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  right: 0px;
+  font-size: 40px;
+  color: rgba(255,255,255,0.75);
+}
+
+.WIZelement {
+  position: absolute;
+  top: 76px;
+  left: 12px;
+  right: 0px;
+  font-size: 7px;
+  color: rgba(255,255,255,0.75);
+}
+
+.WIZelement .chartTitle {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  font-size: 15px;
+  color: rgba(127,255,255,0.75);
+}
+
+.bar:hover {
+  fill: #33ff33;
+}
+
+.WIZelement .axis {
+  font: 7px sans-serif;
+  fill: green;
+}
+
+.WIZelement .axis path,
+.WIZelement .axis line {
+  fill: none;
+  stroke: green;
+  shape-rendering: crispEdges;
+}
+
+.WIZelement.x.axis path {
+  display: none;
+}
+
+
